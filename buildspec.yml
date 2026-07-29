@@ -10,8 +10,8 @@ phases:
 
   build:
     commands:
-      - python train.py
+      - python mlops_prac1.py
 
 artifacts:
   files:
-    - model.pkl
+    - telecom_tower_model.pkl
